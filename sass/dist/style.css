@@ -9,3 +9,9 @@ body {
 #header #main-menu {
   background: #ccf962;
 }
+
+#btn-success {
+  background: red;
+  color: white;
+  padding: 8px;
+}

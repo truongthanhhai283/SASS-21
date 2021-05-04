@@ -1,4 +1,10 @@
-@import './variable';
+@import "./variable";
+
+//========== mixin
+@mixin success {
+  background: red;
+  color: white;
+}
 
 body {
   background: $text-color;
@@ -10,4 +16,9 @@ body {
   #main-menu {
     background: $ternary-color;
   }
+}
+
+#btn-success {
+  @include success;
+  padding: 8px;
 }
