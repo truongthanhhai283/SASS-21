@@ -1,10 +1,6 @@
 @import "./variable";
-
+@import "./mixins";
 //========== mixin
-@mixin success {
-  background: red;
-  color: white;
-}
 
 body {
   background: $text-color;
@@ -18,7 +14,10 @@ body {
   }
 }
 
+// #btn-success {
+//   @include success(20px, blue);
+// }
+
 #btn-success {
-  @include success;
-  padding: 8px;
+  @include success($radius: 30px, $color: green);
 }
