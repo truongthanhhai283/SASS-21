@@ -3,10 +3,13 @@
 @import "./partial/variable";
 @import "./partial/mixins";
 
-@import url("variable");
-@import "filename.css/scss";
-@import "https://";
-@import "style-screen" screen;
+// @import url("variable");
+// @import "filename.css/scss";
+// @import "https://";
+// @import "style-screen" screen;
+
+@include google-fonts(Oswalda);
+// @include google-fonts(Fira-Sans);
 
 body {
   background: $text-color;
