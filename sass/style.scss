@@ -1,6 +1,12 @@
-@import "./variable";
-@import "./mixins";
-//========== mixin
+// ===== Imprort
+// @import "./partial/variable", "./partial/mixins";
+@import "./partial/variable";
+@import "./partial/mixins";
+
+@import url("variable");
+@import "filename.css/scss";
+@import "https://";
+@import "style-screen" screen;
 
 body {
   background: $text-color;
@@ -19,9 +25,11 @@ body {
 // }
 
 #btn-success {
+  //========== mixin
   @include success($radius: 30px, $color: green);
 }
 
+//========== mixin
 @include apply-to-ie-6 {
   body {
     font-size: 100px;
