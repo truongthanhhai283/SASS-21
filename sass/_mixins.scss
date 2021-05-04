@@ -6,3 +6,9 @@
   color: $color;
   border: $radius;
 }
+
+@mixin apply-to-ie-6 {
+  * {
+    @content;
+  }
+}

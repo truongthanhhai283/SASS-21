@@ -21,3 +21,11 @@ body {
 #btn-success {
   @include success($radius: 30px, $color: green);
 }
+
+@include apply-to-ie-6 {
+  body {
+    font-size: 100px;
+    color: black;
+    background: blue;
+  }
+}
