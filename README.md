@@ -76,4 +76,13 @@
 
 ### Operator
     -   sass -i
-    
+
+### Loop
+
+### Compass 
+    -   gem update --system
+    -   gem install compass
+    -   compass version
+    -   compass create <project>
+    -   compass watch *
+    -   compass compile
