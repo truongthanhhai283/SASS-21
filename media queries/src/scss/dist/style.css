@@ -66,3 +66,27 @@ h1:hover {
 .icon-twitter {
   color: green;
 }
+
+.grid-12 {
+  width: 120%;
+}
+
+.grid-10 {
+  width: 100%;
+}
+
+.grid-8 {
+  width: 80%;
+}
+
+.grid-6 {
+  width: 60%;
+}
+
+.grid-4 {
+  width: 40%;
+}
+
+.grid-2 {
+  width: 20%;
+}

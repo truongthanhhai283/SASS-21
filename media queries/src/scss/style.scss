@@ -80,3 +80,11 @@ $icons: icon-facebook, icon-google, icon-twitter;
     color: green;
   }
 }
+
+$grid: 12;
+@while ($grid >= 2) ==true {
+  .grid-#{$grid} {
+    width: $grid * 10%;
+  }
+  $grid: $grid - 2;
+}
