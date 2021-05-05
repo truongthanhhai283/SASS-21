@@ -51,4 +51,7 @@ h1 {
   &:hover {
     color: red;
   }
+
+//   inhertance
+  @extend footer;
 }

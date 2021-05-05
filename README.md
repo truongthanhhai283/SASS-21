@@ -71,4 +71,6 @@
     sass --interactive
 
 ### Function
+
+### Inhertance
     
