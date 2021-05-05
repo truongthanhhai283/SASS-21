@@ -48,13 +48,17 @@ footer {
   color: chartreuse;
 }
 
+$option: first;
+
 h1 {
   @include large-screens() {
     text-align: center;
   }
-  &:hover {
-    color: red;
-    @extend %highlight;
+  @if $option==first {
+    &:hover {
+      color: red;
+      @extend %highlight;
+    }
   }
 
   //   inhertance
