@@ -48,3 +48,19 @@
         ]
 
 ### Tìm hiểu về biến ở trong SASS
+
+### Tip using scss
+
+### Partials module
+
+### Working Mixin
+
+### Import 
+
+### Gulp
+    -   npm i gulp browser-sync gulp-sass
+    -   npm i -g gulp-cli
+    -   npm install gulp@^4.0.2
+    -   npm install gulp --save-dev
+    -   npm install natives@1.1.6
+    -   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
