@@ -44,14 +44,19 @@ footer {
   }
 }
 
+%highlight {
+  color: chartreuse;
+}
+
 h1 {
   @include large-screens() {
     text-align: center;
   }
   &:hover {
     color: red;
+    @extend %highlight;
   }
 
-//   inhertance
+  //   inhertance
   @extend footer;
 }

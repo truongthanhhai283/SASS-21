@@ -18,6 +18,10 @@
   }
 }
 
+h1:hover {
+  color: chartreuse;
+}
+
 @media only screen and (max-width: 960px) {
   h1 {
     text-align: center;
