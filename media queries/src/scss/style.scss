@@ -1,0 +1,17 @@
+#main-menu {
+  @media only screen and (max-width: 960) {
+    #main-menu {
+      width: auto;
+      max-width: 960px;
+      font-size: 200%;
+    }
+  }
+}
+
+body {
+  @media only screen and (max-width: 960) {
+    width: auto;
+    max-width: 960px;
+    font-size: 200%;
+  }
+}
