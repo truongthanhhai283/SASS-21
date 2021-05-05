@@ -64,3 +64,11 @@
     -   npm install gulp --save-dev
     -   npm install natives@1.1.6
     -   Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+
+### Media queries
+
+### Calc (size (px...)), calc color
+    sass --interactive
+
+### Function
+    
