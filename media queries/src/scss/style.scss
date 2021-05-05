@@ -64,3 +64,12 @@ h1 {
   //   inhertance
   @extend footer;
 }
+
+// @for $i from 1 to 12 {
+@for $i from 1 through 12 {
+  @if $i % 2!=0 {
+    .col-#{$i} {
+      width: $i * 2em;
+    }
+  }
+}

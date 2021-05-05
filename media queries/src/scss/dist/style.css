@@ -30,3 +30,27 @@ h1:hover {
 h1:hover {
   color: red;
 }
+
+.col-1 {
+  width: 2em;
+}
+
+.col-3 {
+  width: 6em;
+}
+
+.col-5 {
+  width: 10em;
+}
+
+.col-7 {
+  width: 14em;
+}
+
+.col-9 {
+  width: 18em;
+}
+
+.col-11 {
+  width: 22em;
+}
